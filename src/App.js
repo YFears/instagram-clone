@@ -5,7 +5,6 @@ import { db, auth } from './firebase';
 import { Modal, makeStyles, Button, Input, Avatar } from '@material-ui/core';
 import ImageUpload from './ImageUpload';
 
-
 function getModalStyle() {
   const top = 50;
   const left = 50;
@@ -103,7 +102,7 @@ function App() {
       )
       .catch(error => alert(error.message))
   }
-console.log(posts)
+
   return (
     <div className="app">      
       <Modal

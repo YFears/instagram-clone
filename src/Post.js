@@ -55,7 +55,7 @@ function Post({ user, username, caption, imageUrl, postId, time }) {
             </div>
             <p className="post__time">{moment(time.toDate()).fromNow()}</p>
 
-            <form className="post__commentContainer">
+            {user &&(<form className="post__commentContainer">
                 <input type="text"
                     className="post__input"
                     placeholder="Add a comment..."
@@ -70,7 +70,7 @@ function Post({ user, username, caption, imageUrl, postId, time }) {
                 >
                     Post
                 </button>
-            </form>
+            </form>)}
         </div>
     )
 }
