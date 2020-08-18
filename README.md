@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+and available at [React Instagram Clone App](https://yfears.github.io/instagram-clone/)
 
 ## Available Scripts
 
